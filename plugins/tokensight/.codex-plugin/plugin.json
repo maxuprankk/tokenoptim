@@ -27,8 +27,8 @@
   },
   "mcpServers": {
     "tokensight": {
-      "command": "python3",
-      "args": ["~/.tokensight/server_chatgpt.py"]
+      "command": "/Users/maximearnaud/Projets/tokensight/venv/bin/python3",
+      "args": ["/Users/maximearnaud/.tokensight/server_chatgpt.py"]
     }
   }
 }
