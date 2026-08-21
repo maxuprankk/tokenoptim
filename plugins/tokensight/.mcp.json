@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tokensight": {
+      "command": "/Users/maximearnaud/Projets/tokensight/venv/bin/python3",
+      "args": ["/Users/maximearnaud/.tokensight/server_chatgpt.py"]
+    }
+  }
+}

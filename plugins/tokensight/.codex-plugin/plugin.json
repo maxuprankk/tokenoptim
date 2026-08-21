@@ -12,6 +12,7 @@
     "économie", "productivité", "limite", "llm"
   ],
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "TokenSight",
     "shortDescription": "2x plus de ChatGPT avant d'être bloqué",
@@ -24,11 +25,5 @@
     "termsOfServiceURL": "https://tokensight.app/terms",
     "brandColor": "#6c5ce7",
     "screenshots": []
-  },
-  "mcpServers": {
-    "tokensight": {
-      "command": "/Users/maximearnaud/Projets/tokensight/venv/bin/python3",
-      "args": ["/Users/maximearnaud/.tokensight/server_chatgpt.py"]
-    }
   }
 }
