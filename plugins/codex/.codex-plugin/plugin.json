@@ -1,0 +1,33 @@
+{
+  "name": "tokensight",
+  "version": "1.0.0",
+  "description": "2x plus de ChatGPT — compresse automatiquement tes conversations pour doubler ta capacité avant les limites. Même qualité, 40-70% de tokens en moins.",
+  "author": {
+    "name": "TokenSight"
+  },
+  "homepage": "https://tokensight.app",
+  "license": "Proprietary",
+  "keywords": [
+    "tokensight", "optimisation", "tokens", "compression",
+    "économie", "productivité", "limite", "llm"
+  ],
+  "interface": {
+    "displayName": "TokenSight",
+    "shortDescription": "2x plus de ChatGPT avant d'être bloqué",
+    "longDescription": "TokenSight compresse automatiquement l'historique de tes conversations. Tu fais 2x plus de requêtes avant d'atteindre les limites — sans changer d'interface.",
+    "developerName": "TokenSight",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read"],
+    "websiteURL": "https://tokensight.app",
+    "privacyPolicyURL": "https://tokensight.app/privacy",
+    "termsOfServiceURL": "https://tokensight.app/terms",
+    "brandColor": "#6c5ce7",
+    "screenshots": []
+  },
+  "mcpServers": {
+    "tokensight": {
+      "command": "python3",
+      "args": ["~/.tokensight/server_chatgpt.py"]
+    }
+  }
+}
