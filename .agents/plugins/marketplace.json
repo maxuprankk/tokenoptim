@@ -1,0 +1,20 @@
+{
+  "name": "tokensight-marketplace",
+  "interface": {
+    "displayName": "TokenSight"
+  },
+  "plugins": [
+    {
+      "name": "tokensight",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tokensight"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
